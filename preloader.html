@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+<style>
+  body{background-color:#314a5a}
+  h2{color:#7b848c;
+     text-align:center;
+     font-family:Arial;
+     font-weight:lighter;
+     font-size:38px}
+  #prel{solid #7b848c;
+        height:38px; width:100px;
+        margin:auto;
+        margin-top:300px}
+  .dot{width:10px;
+       height:10px;
+       background-color:#7b848c;
+       margin:5px; float:left;
+       border-radius:10px}
+  .dot:hover{background-color:white}
+  #first{animation: pulse 1s infinite;}
+  @keyframes pulse{
+    from{background-color: #314a5a;}
+      to{background-color: white;}
+  }
+</style>
+</head>
+<body>
+  <header id="prel">
+    <div id="first" class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+  </header>
+  <h2>Asteptati pana se incarca</h2>
+</body>
+</html>
